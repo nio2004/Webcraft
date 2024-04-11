@@ -81,7 +81,7 @@ function App() {
           })
           .catch(error => {
             console.error('Error fetching contributors:', error);
-            setMessage('Error fetching contributors:', error);
+            // setMessage('Error fetching contributors:', error);
           });
       // }
     }
